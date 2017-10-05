@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration for The Learning Game</title>
+	<title>Registration for TutorTime</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="header">
-		<h2>Registration for The Learning Game</h2>
+		<h2>Registration for TutorTime</h2>
 	</div>
 	
 	<form method="post" action="registeruser.php">
@@ -15,8 +15,8 @@
 		<?php include('errors.php'); ?>
 
 		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" value="<?php echo $username; ?>">
+			<label>Name</label>
+			<input type="text" name="name" value="<?php echo $name; ?>">
 		</div>
 		<div class="input-group">
 			<label>Email</label>

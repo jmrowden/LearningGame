@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration for The Learning Game</title>
+	<title>Registration for Tutor Time</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -16,8 +16,8 @@
 		<?php include('errors.php'); ?>
 
 		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" >
+			<label>Name</label>
+			<input type="text" name="name" >
 		</div>
 		<div class="input-group">
 			<label>Password</label>
